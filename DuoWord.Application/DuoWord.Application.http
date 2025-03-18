@@ -1,0 +1,44 @@
+@DuoWord.Application_HostAddress = http://localhost:5003
+
+# create category
+POST {{DuoWord.Application_HostAddress}}/api/category
+Content-Type: application/json
+
+ {
+  "Name": "Informática"
+ }
+
+
+###
+
+
+# Get by Id Category
+@id ="dsadsad"
+
+GET {{DuoWord.Application_HostAddress}}/api/category/{{id}}
+
+
+###
+
+# GetList of Category
+GET {{DuoWord.Application_HostAddress}}/api/category/getList
+
+###
+
+# Update category by Id
+@id_put=2
+PUT {{DuoWord.Application_HostAddress}}/api/category/{{id_put}}
+Content-Type: application/json
+{
+
+}
+
+###
+
+
+@id_delete=3
+DELETE {{DuoWord.Application_HostAddress}}/api/category/{{id_delete}
+
+
+###
+
