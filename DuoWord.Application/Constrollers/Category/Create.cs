@@ -1,4 +1,4 @@
-using DuoWord.Presentation.Common;
+using DuoWord.SharedKernel.Common;
 using DuoWord.Presentation.DTO;
 using FastEndpoints;
 

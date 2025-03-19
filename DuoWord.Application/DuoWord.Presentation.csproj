@@ -13,6 +13,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DuoWord.Domain\DuoWord.Domain.csproj" />
+    <ProjectReference Include="..\DuoWord.SharedKernel\DuoWord.SharedKernel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
   </ItemGroup>
 
 </Project>

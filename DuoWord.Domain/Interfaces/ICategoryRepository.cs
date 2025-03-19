@@ -14,5 +14,6 @@ namespace DuoWord.Domain.Interfaces
         Task<Category> Update(Category category);
         Task<int> Delete(Guid id);
         Task<Category> SelectById(Guid id);
+        Task<Category> SelectByName(string name);
     }
 }

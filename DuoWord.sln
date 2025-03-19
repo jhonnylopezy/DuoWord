@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuoWords.Application", "Duo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuoWord.Test", "DuoWord.Test\DuoWord.Test.csproj", "{20D72D6D-EE46-4275-AF61-8E6BC7FD6F24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuoWord.SharedKernel", "DuoWord.SharedKernel\DuoWord.SharedKernel.csproj", "{0B495155-C3C3-462F-B330-E2515569BA91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{20D72D6D-EE46-4275-AF61-8E6BC7FD6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20D72D6D-EE46-4275-AF61-8E6BC7FD6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20D72D6D-EE46-4275-AF61-8E6BC7FD6F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B495155-C3C3-462F-B330-E2515569BA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B495155-C3C3-462F-B330-E2515569BA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B495155-C3C3-462F-B330-E2515569BA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B495155-C3C3-462F-B330-E2515569BA91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

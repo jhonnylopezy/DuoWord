@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DuoWord.Presentation.Common
+namespace DuoWord.SharedKernel.Common
 {
     public class Result<T>
     {

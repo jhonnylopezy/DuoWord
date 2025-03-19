@@ -13,7 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DuoWord.Domain\DuoWord.Domain.csproj" />
+    <ProjectReference Include="..\DuoWord.SharedKernel\DuoWord.SharedKernel.csproj" />
   </ItemGroup>
 
 </Project>

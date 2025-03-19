@@ -40,6 +40,11 @@ namespace DuoWord.Infrastructure.Repositories
             return await this._dbContext.Categories.SingleAsync(category => category.Id == id);
         }
 
+        public async Task<Category?> SelectByName(string name)
+        {
+            return await this._dbContext.Categories.SingleOrDefaultAsync(categ => categ.Name == name);
+        }
+
         public async Task<Category> Update(Category category)
         {
             var categorySelected = await this._dbContext.Categories.SingleAsync(categ => categ.Id == category.Id);

@@ -1,7 +1,7 @@
 ﻿
 
 using DuoWord.Presentation.DTO;
-using DuoWord.Presentation.Common;
+using DuoWord.SharedKernel.Common;
 using FastEndpoints;
 
 namespace DuoWord.Presentation.Constrollers.Category;
