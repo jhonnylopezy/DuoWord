@@ -9,10 +9,10 @@ namespace DuoWord.SharedKernel.Common
     public class Result<T>
     {
         public bool IsSuccess { get; }
-        public T Value { get; }
+        public T? Value { get; }
         public string Error { get; }
 
-        public Result(bool isSuccess, T value, string error)
+        public Result(bool isSuccess, T? value, string error)
         {
             this.IsSuccess = isSuccess;
             this.Value = value;
@@ -20,8 +20,8 @@ namespace DuoWord.SharedKernel.Common
         }
 
         //Factory method for success
-        public static Result<T> Success(T value) => new Result<T>(true, value, null);
+        public static Result<T> Success(T value) => new Result<T>(true, value, string.Empty);
 
-        public static Result<T> Failure(string error) => new Result<T>(false, default, null);
+        public static Result<T> Failure(string error) => new Result<T>(false, default, string.Empty);
     }
 }

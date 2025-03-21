@@ -1,12 +1,4 @@
-﻿using DuoWord.Domain.Entities;
-using DuoWord.Domain.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace DuoWord.Infrastructure.Repositories
 {
     public class CategoryRepository : ICategoryRepository

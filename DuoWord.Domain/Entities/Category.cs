@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace DuoWord.Domain.Entities
 {
     public class Category
     {
         public Guid Id { get; set; }
-        public string Name { get; set; }
-        public string State { get; set; }
+        public required string Name { get; set; }
+        public required string State { get; set; }
     }
 }
