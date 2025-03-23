@@ -10,12 +10,17 @@
     <PackageReference Include="Ardalis.GuardClauses" Version="5.0.0" />
     <PackageReference Include="FastEndpoints" Version="5.35.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DuoWord.Domain\DuoWord.Domain.csproj" />
+    <ProjectReference Include="..\DuoWord.Infrastructure\DuoWord.Infrastructure.csproj" />
     <ProjectReference Include="..\DuoWord.SharedKernel\DuoWord.SharedKernel.csproj" />
+    <ProjectReference Include="..\DuoWords.Application\DuoWords.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

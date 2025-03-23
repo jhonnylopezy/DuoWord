@@ -8,10 +8,10 @@ namespace DuoWord.Infrastructure
     {
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection service,IConfigurationManager config,ILogger logger)
         {
-            string? stringConex = config.GetConnectionString("ConnectionStrings.postgresql");
-            Guard.Against.Null(stringConex);
-            service.AddDbContext<DuoWordContext>(option =>
-            option.UseNpgsql(stringConex));
+            //string? stringConex = config.GetConnectionString("postgresql");
+            //Guard.Against.Null(stringConex);
+            //service.AddDbContext<DuoWordContext>(option =>
+            //option.UseNpgsql(stringConex));
 
             service.AddScoped<ICategoryRepository, CategoryRepository>();
 

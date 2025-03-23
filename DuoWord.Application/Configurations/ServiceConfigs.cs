@@ -1,10 +1,13 @@
-﻿namespace DuoWord.Presentation.Configurations
+﻿using DuoWord.Infrastructure;
+
+namespace DuoWord.Presentation.Configurations
 {
     public static class ServiceConfigs
     {
-        public static IServiceCollection AddServiceConfigs(this IServiceCollection service,ILogger logger,WebApplicationBuilder builder)
+        public static IServiceCollection AddServiceConfigs(this IServiceCollection service,IConfigurationManager config,ILogger logger,WebApplicationBuilder builder)
         {
-            
+            service.AddInfrastructureServices(config,logger)
+                .AddMediatrConfigs();
             return service;
         }
     }
