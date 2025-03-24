@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace DuoWord.Infrastructure.Migrations
 {
-    [DbContext(typeof(DuoWordContext))]
+    [DbContext(typeof(StartupSetup))]
     [Migration("20250320124656_InitialCreate")]
     partial class InitialCreate
     {

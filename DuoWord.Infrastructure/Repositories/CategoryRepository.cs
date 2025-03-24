@@ -3,8 +3,8 @@ namespace DuoWord.Infrastructure.Repositories
 {
     public class CategoryRepository : ICategoryRepository
     {
-        public DuoWordContext _dbContext;
-        public CategoryRepository(DuoWordContext dbContext)
+        public StartupSetup _dbContext;
+        public CategoryRepository(StartupSetup dbContext)
         {
             this._dbContext = dbContext;
         }

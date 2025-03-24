@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace DuoWord.Infrastructure.Migrations
 {
-    [DbContext(typeof(DuoWordContext))]
+    [DbContext(typeof(StartupSetup))]
     partial class DuoWordContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
